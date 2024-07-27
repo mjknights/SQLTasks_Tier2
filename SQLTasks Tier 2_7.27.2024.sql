@@ -132,7 +132,7 @@ WHERE starttime LIKE '2012-09-14%'
 HAVING Cost IS NOT NULL
 ORDER BY Cost DESC;
 
-/* PART 2: SQLite
+/* PART 2: SQLite -- INCLUDED IN SECOND FILE
 
 Export the country club data from PHPMyAdmin, and connect to a local SQLite instance from Jupyter notebook 
 for the following questions.  
